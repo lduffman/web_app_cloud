@@ -28,7 +28,7 @@ app.post('/api/folders/create', bodyParser.json(), (req, res) => {
 
     newFolder.save()
     .then(item => {
-      res.send("item saved to database");
+      res.status(200).send(item);
     })
     .catch(err => {
       res.status(400).send("unable to save to database");
