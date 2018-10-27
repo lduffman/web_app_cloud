@@ -1,0 +1,21 @@
+{
+  "name": "could-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Loic",
+  "license": "ISC",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.18.3",
+    "cookie-session": "^2.0.0-beta.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "middleware": "^1.0.0",
+    "mongoose": "^5.3.4",
+    "parser": "^0.1.4"
+  }
+}

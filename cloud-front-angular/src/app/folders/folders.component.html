@@ -1,0 +1,19 @@
+
+YO
+<div>
+  <form>
+    <input #folder placeholder="Create new folder" [(ngModel)]="name" name="name">
+    <button (click)="addFolder(name); name=''">
+      add
+    </button>
+  </form>
+</div>
+
+
+<div>
+<a *ngFor="let folder of folders" class="col-2-4">
+    <div class="module folder">
+      <h4>{{folder.name}}</h4>
+    </div>
+  </a>
+</div>

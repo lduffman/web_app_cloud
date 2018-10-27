@@ -1,0 +1,16 @@
+<h3>Top Folders</h3>
+
+<div class="grid grid-pad">
+  <p> Les Dossiers </p>
+  <a *ngFor="let folder of folders" class="col-1-4"
+      routerLink="/detail/{{folder.id}}/{{folder.id_parent}}">
+    <div class="module folder">
+      <h4>{{folder.name}}</h4>
+    </div>
+  </a>
+
+</div>
+<div>
+    <p> Les Fichiers </p>
+</div>
+
